@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: 	#2f64d6 ;
+  }
+
+h2{
+    color: #FFD90F;
+    font-family: "simpsonfont", sans-serif;
+}
+h1{
+    color: #FFD90F;
+    font-family: "simpsonfont", sans-serif; text-align: center;
+}
+@font-face {
+    font-family: "simpsonfont";
+    src: url("fonts/simpsonfont.otf") format('opentype');
+}
+#imagenCreador{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    width: 50%;
+
+}
+
+#texto1{
+    display: flex;
+    width: 50%;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    background-color: 	#FFD90F;
+    border-radius: 5%;
+}
+.creador{
+    width: 640px;
+    display: flex;
+    position: relative
+}
+.videointro{
+    width: 640px;
+    position: relative;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.walpaper{
+    width: 640px;
+    position: relative;
+    display: flex;
+    background-image: url(../imagenes/wallpaper.jpg);
+}
+
+.contenedor{
+    display: flex;
+    text-align: center;
+}
+
+.botonwalpaper{
+    top: 45%;
+    left: 45%;
+    display: flex;
+    position: absolute;
+}
+.Familia{
+    position: relative;
+    height: 90%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #FFD90F;
+}
+.slider{
+
+}
+
+.botones{
+    text-align: center;
+    width: 100%;
+    height: 85px;
+    background-color: #2f64d6;
+    border: #F14E28 solid 5px;
+}

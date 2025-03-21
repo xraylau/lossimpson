@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div> <h1>lOS SIMPSON</h1></div>
+    
+    <div> <img src="imagenes/AGUA.jpg" alt="agua"  width="1920px" height="600px"></div>
+    <div class="conteiner-fluid botones">
+      <div class="row contenedor">
+       <div class="col-3">
+        <a class="btn btn-outline-warning" href="#" role="button" onmouseover="playSound('audiohome')"><h2>HOME <img src="imagenes/icons8-homero-simpson-480 (1).png" alt="homero" width="50px" height="50px"></h2></a>
+        <audio  id="audiohome" src="audios/home.mp3" ></audio>
+      </div>
+       <div class="col-3">
+        <a class="btn btn-outline-warning" href="#" role="button" onmouseover="playSound('audiopersonajes')"><h2>PERSONAJES <img src="imagenes/icons8-lisa-simpson-480.png" alt="lisa" width="50px" height="50px"></h2></a>
+        <audio  id="audiopersonajes" src="audios/personajes.mp3" ></audio>
+       </div>
+       <div class="col-3">
+        <a class="btn btn-outline-warning" href="#" role="button" onmouseover="playSound('audiotemporadas')"><h2>TEMPORADAS <img src="imagenes/icons8-bart-simpson-480.png" alt="bart" width="50px" height="50px"></h2></a>
+        <audio  id="audiotemporadas" src="audios/temporadas.mp3" ></audio>
+       </div>
+       <div class="col-3">
+        <a class="btn btn-outline-warning" href="#" role="button"><h2>GALERIA <img src="imagenes/icons8-maggie-simpson-480.png" alt="maggie" width="50px" height="50px"></h2></a>
+       </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 slider">
+          <img src="imagenes/sliderbart.jpg" alt="slider" height="600px" width="1920px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 creador">
+          <div id="imagenCreador"> <img src="imagenes/Unlock_mattgroening.png" alt="creador"></div>
+          <div id="titulocreador"><H2>creador</H2></div>
+          <div id="texto1"><p>Matthew Abram Groening (Portland, 15 de febrero de 1954)​ es un dibujante, productor de televisión y escritor estadounidense, principalmente reconocido por ser el creador de Los Simpson. Es también el creador de Futurama. </p></div>
+        </div>
+        <div class="col-4 videointro">
+          <video class="video" controls src="videos/intro.mp4"></video>>
+        </div>
+        <div class="col-4 walpaper">
+           <a class="btn btn-primary botonwalpaper" href="#" role="button"><h2>walpaper</h2></a>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-6 homeroDinero">
+          <img src="imagenes/homerodinero.png" alt="homeroDinero" width="960px" height="500px">
+        </div>
+        <div class="col-6 Familia">
+          <img src="imagenes/familia.png" alt="Familia" width="960px" height="500px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" style="width: 40rem;">
+          <img class="card-img-top" src="imagenes/AGUA.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 40rem;">
+          <img class="card-img-top" src="imagenes/acampar.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 40rem;">
+          <img class="card-img-top" src="imagenes/todaLaGente.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p> &copy; derechos reservados por mi </p>
+        <img src="imagenes/iconoayudantedesanta.png" alt="ayudantedesanta" width="50px" height="50x">
+      </footer>
+    <script>
+      function playSound(audioId) {
+          var audio = document.getElementById(audioId);
+          audio.play();
+      }
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="flexboxgrid.min.css">
+</head>
+<body>
+    <header> 
+        <!-- Checkbox para controlar la visibilidad del menú -->
+        <input type="checkbox" id="menu-toggle">
+        <!-- Botón de "Menú" que actúa como el interruptor -->
+        <label for="menu-toggle" class="menu-button">Menú</label>
+    
+        <!-- Contenedor de botones -->
+        <div class="button-container">
+            <button>Botón 1</button>
+            <button>Botón 2</button>
+            <button>Botón 3</button>
+        </div>
+    </header>
+    <main class="row">
+        <section id="s1" class="col-xs-12 col-md-12 col-lg-12">1</section>
+        <section id="s2" class="col-xs-12 col-md-6 col-lg-4">2</section>
+        <section id="s3" class="col-xs-6 col-md-6 col-lg-4">3</section>
+        <aside id="a1" class="col-xs-6 col-md-12 col-lg-4">4</aside>
+        <aside id="a2" class="col-xs-12 col-md-6 col-lg-6">5</aside>
+        <aside id="a3" class="col-xs-12 col-md-6 col-lg-6">6</aside>
+        
+    </main>
+    <footer>
+        <p> &copy; todos los derechos reservados</p>
+    </footer>
+      
+</body>
